@@ -79,5 +79,6 @@ SELECT show_time FROM movies WHERE title = 'Iron Man 3';
 -- EXTENSION
 
 -- 1. Research how to delete multiple entries from your table in a single command.
+DELETE FROM movies WHERE year = 2008;
 DELETE FROM movies;
 DELETE FROM people;
